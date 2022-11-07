@@ -1,0 +1,28 @@
+Project: 
+Testing-Gamanza
+
+Issue Type: 
+Bug
+
+Summary: 
+Resizing the window confuses the video in the About page
+
+Description: 
+Getting an issue while resizing the window to check the website responsiveness. Once you start the video and resize the window of the browser at one point the video will still be going and you can hear the audio but another video will apear where you have the option to start it. Once you start it two audios will be heard at the same time. If you resize it again you stop the previous one and the resize it again and stop the current one.
+
+Steps to reproduce:
+1.Visit www.gamanza.com
+2.Go to About page
+3.Start the video
+4.Resize the browser window until at one point the same video can be started again while already running
+5.Run the new video
+
+Expected outcome: The video should work accordingly to the resizing of the window
+Actual outcome: Video gets doubled
+
+
+Priority: 
+High
+
+Environment: Getting the bug on Mozilla Firefox and Chrome. 
+
