@@ -1,0 +1,28 @@
+Project: 
+Testing-Gamanza
+
+Issue Type: 
+Bug
+
+Summary: 
+Resizing the window confuses the menu items
+
+Description: 
+Getting an issue while resizing the window to check the website responsiveness. Once resized horizontally at 1066px, the menu items float downwards and stay there and interfere with the content of the webpage such as the text and images. At one point where you go the middle of the webpage and return to the top another menu appears at the original place and therefore two menus are visible. One at the regular spot and another interfering with the content.
+
+Steps to reproduce:
+1.Visit www.gamanza.com
+2.Right click and choose inspect
+3.At the menu choose Responsive Design Mode(Mozilla)
+4.Resize the window horizontally until at one point(exactly 1066px) the menu floats downwards from its original spot
+5.Scroll down the page and return to the top, the menu doubles
+
+Expected outcome: The website should work accordingly to the resizing of the window
+Actual outcome: Menu items move from their original spot and interfere with the content of the page
+
+
+Priority: 
+High
+
+Environment: Getting the bug on Mozilla Firefox and Chrome. 
+
