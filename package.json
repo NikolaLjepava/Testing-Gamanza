@@ -1,0 +1,23 @@
+{
+  "name": "testing-gamanza",
+  "version": "1.0.0",
+  "description": "**This repository holds the answers to the Common QA dilemma questionary. It also holds the link to the JIRA website where i wrote the testing reports and bugs i found in\r the www.gamanza.com.**\r **The link to the google docs file spreadsheet where i wrote the test scenarios along with the JIRA website link is here in the README file**",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikolaLjepava/Testing-Gamanza.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikolaLjepava/Testing-Gamanza/issues"
+  },
+  "homepage": "https://github.com/NikolaLjepava/Testing-Gamanza#readme",
+  "devDependencies": {
+    "cypress": "^11.0.0"
+  }
+}
