@@ -9,5 +9,5 @@ the www.gamanza.com.**
 **Test scenario - Website responsiveness: https://docs.google.com/spreadsheets/d/1YqN7L6JvIWFK7Lsc4-2ohFNS1bO_0cwwcGvfFFlGSBM/edit#gid=0**
 
 The way i approached this assignment is in the following way. I got the assignment on 28.10.2022 and started the same day. I worked with the questions until 1.11.2022 and
-started with writing the test scenarios the next day. Finished with the manual testing. Next step is automation.
+started with writing the test scenarios the next day. Finished with the manual testing. I have finished with automating the first test case, the rest will also be automated except for the responsiveness testing scenario as it requires manual testing only due to its specific nature. It is sometimes an advantage to perform manual testing on a certain test case as automation can skip some abnormalities that the human eye and hand cannot miss.
 
