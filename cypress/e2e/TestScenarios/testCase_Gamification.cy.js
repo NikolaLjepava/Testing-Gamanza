@@ -2,23 +2,22 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   return false;
 });
 
-describe('Test case - Game store menu item', () => {
+describe('Test case - Gamification menu item', () => {
 
-	it('Open Game store', () => {
+	it('Open Gamification', () => {
 
 		// Visit website
 		cy.visit('https://gamanza.com/')
-		// Navigate to Game store
-		cy.get('span').contains('Game Store').click()
+		// Navigate to Gamification
+		cy.get('span').contains('Gamification').click()
 
 		//Assertions
-		cy.url().should('include', '/igaming-content/')
-		cy.contains('Such a wondrous place!')
-		cy.contains('GaminGenius™ Back office')
-		cy.contains('Bonus Bank')
-		cy.contains('Open API')
-		cy.contains('Save time & money')
-		//cy.get('.widget_media_image').should('have.attr','href').should('include','https://sigma.world/directory/platform-provider/gamanza/')
+		cy.url().should('include', '/gamification-for-igaming/')
+		cy.contains('Gamification & Rewards')
+		cy.contains('Gamification Software')
+		cy.contains('Campaigns')
+		cy.contains('Analytics')
+		cy.get('.vc_box_border_grey').find('img').should('have.attr','src').should('include','https://gamanza.com/wp-content/uploads/2021/08/Gamification-dashboard-screen-right-400x438.png')
 
 		// Click on the LinkedIn icon in footer
 		cy.get('.edgtf-social-icon-widget-holder').click()
